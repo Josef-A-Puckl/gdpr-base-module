@@ -1,6 +1,6 @@
 [{$smarty.block.parent}]
 [{block name="oegdprbase_delete_shipping_address"}]
-    [{if $oViewConf->getActiveTheme() == 'azure'}]
+    [{if $oViewConf->getActiveTheme() == 'hamburg'}]
         <button id="oegdprbase-delete-shipping-address-button" class="submitButton largeButton oegdprbase-delete-shipping-address-button removeButton" title="[{oxmultilang ident="OEGDPRBASE_DELETE"}]"><span>[{oxmultilang ident="OEGDPRBASE_DELETE"}]</span></button>
         [{oxscript include="js/widgets/oxmodalpopup.js" priority=10}]
         [{oxscript add='

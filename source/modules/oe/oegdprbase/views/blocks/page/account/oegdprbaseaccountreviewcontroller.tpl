@@ -1,6 +1,6 @@
 [{if $oViewConf->oeGdprBaseIsUserAllowedToManageOwnReviews()}]
     [{block name="oegdprbase_account_manage_reviews"}]
-        [{if $oViewConf->getActiveTheme() == 'azure'}]
+        [{if $oViewConf->getActiveTheme() == 'hamburg'}]
             [{include file="oegdprbaseaccountreviewcontroller_azure.tpl"}]
         [{else}]
             [{include file="oegdprbaseaccountreviewcontroller_flow.tpl" }]

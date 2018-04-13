@@ -1,7 +1,7 @@
 [{$smarty.block.parent}]
 [{block name="oegdprbase_add_css"}]
     [{*CSS Switch according theme*}]
-    [{if $oViewConf->getActiveTheme() == 'azure'}]
+    [{if $oViewConf->getActiveTheme() == 'hamburg'}]
         [{oxstyle include=$oViewConf->getModuleUrl('oegdprbase','out/css/oegdprbase-azure.css')}]
     [{else}]
         [{oxstyle include=$oViewConf->getModuleUrl('oegdprbase','out/css/oegdprbase-flow.css')}]
