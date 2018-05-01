@@ -6,7 +6,7 @@
     [{/if}]
     [{foreach from=$userAddresses item=shippingAddress name="shippingAdresses"}]
         [{assign var="shippingAddressId" value=$shippingAddress->oxaddress__oxid->value}]
-        <div class="oegdprbase-modal modal fade popupBox corners FXgradGreyLight glowShadow"
+        <div class="oegdprbase-modal modal fade"
              id="delete_shipping_address_[{$shippingAddressId}]"
              tabindex="-1"
              role="dialog"

@@ -49,7 +49,7 @@
                                                                 data-toggle="modal"
                                                                 data-target="#delete_review_[{$smarty.foreach.ReviewsCounter.iteration}]"
                                                         >
-                                                            <i class="fa fa-trash"></i>
+                                                            <i class="fa fa-trash">X</i>
                                                         </button>
                                                     </div>
                                                 </div>

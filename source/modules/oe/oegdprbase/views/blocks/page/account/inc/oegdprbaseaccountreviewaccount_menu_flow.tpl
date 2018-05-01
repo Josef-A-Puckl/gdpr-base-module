@@ -1,4 +1,1 @@
-<li class="list-group-item[{if $active_link == "reviewlist"}] active[{/if}]" id="account_menu-my_reviews">
-    <a href="[{oxgetseourl ident=$oViewConf->getSslSelfLink()|cat:"cl=oegdprbaseaccountreviewcontroller"}]" title="[{oxmultilang ident="OEGDPRBASE_MY_REVIEWS"}]">[{oxmultilang ident="OEGDPRBASE_MY_REVIEWS"}]
-        [{if $oView->oeGdprBaseGetReviewAndRatingItemsCount() > 0}]<span class="badge">[{$oView->oeGdprBaseGetReviewAndRatingItemsCount()}]</span>[{/if}]</a>
-</li>
+<li [{if $active_link == "oegdprbase_reviewlist"}]class="active"[{/if}]><a href="[{ oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=oegdprbaseaccountreviewcontroller" }]" rel="nofollow">[{ oxmultilang ident="OEGDPRBASE_MY_REVIEWS" }]</a></li>
